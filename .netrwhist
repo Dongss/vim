@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/data/home/dongshaoshuai/host-api/models'
+let g:netrw_dirhist_2='/data/home/dongshaoshuai/host-api/.git'
+let g:netrw_dirhist_3='/data/home/dongshaoshuai/uhost-support-api/config'
+let g:netrw_dirhist_4='/data/home/dongshaoshuai/uhost-support-api/libs'
+let g:netrw_dirhist_5='/data/home/dongshaoshuai/usupport-subcase/libs'
+let g:netrw_dirhist_6='/data/home/dongshaoshuai/host-api/config/0'
+let g:netrw_dirhist_7='/data/home/dongshaoshuai/.vim'
+let g:netrw_dirhist_8='/root/.vim'
