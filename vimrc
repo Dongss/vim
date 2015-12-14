@@ -14,6 +14,8 @@ set backspace=start,indent,eol
 set numberwidth=4
 set autoindent
 set smartindent
+set cursorline
+hi CursorLine cterm=NONE ctermbg=5 ctermfg=NONE guibg=NONE guifg=NONE
 set nobackup
 set writebackup
 set hlsearch 
@@ -59,7 +61,9 @@ endif
 au! BufRead,BufNewFile *.js set syntax=jquery
 au! BufRead,BufNewFile *.less set syntax=css
 au! BufRead,BufNewFile *.tpl set syntax=html
+au! BufRead,BufNewFile *.ejs set syntax=html
 au! BufRead,BufNewFile *.sah set syntax=javascript
+au! BufRead,BufNewFile *.proto set syntax=javascript
 
 au! BufRead,BufNewFile *.js set filetype=javascript
 au! BufRead,BufNewFile *.less set filetype=css
@@ -67,6 +71,7 @@ au! BufRead,BufNewFile *.tpl set filetype=html
 au! BufNewFile,BufRead *.t2t set ft=txt2tags
 "au! BufRead,BufNewFile *.proto set filetype proto
 au! BufRead,BufNewFile *.sah set filetype=javascript
+au! BufRead,BufNewFile *.proto set filetype=javascript
 
 autocmd! bufwritepost .vimrc source ~/.vimrc
 
